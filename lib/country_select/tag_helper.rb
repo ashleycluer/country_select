@@ -82,7 +82,7 @@ module CountrySelect
 
           name = ::CountrySelect::FORMATS[format].call(country)
 
-          [name,code]
+          [name,name]
         end
         sorted ? country_list.sort : country_list
       end
